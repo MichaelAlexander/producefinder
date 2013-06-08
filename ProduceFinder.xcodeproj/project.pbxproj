@@ -24,6 +24,38 @@
 		2703FD37175E7D7600E3C8E9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2703FD16175E7D7600E3C8E9 /* CoreData.framework */; };
 		2703FD3F175E7D7600E3C8E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2703FD3D175E7D7600E3C8E9 /* InfoPlist.strings */; };
 		2703FD42175E7D7600E3C8E9 /* ProduceFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703FD41175E7D7600E3C8E9 /* ProduceFinderTests.m */; };
+		27F0DE301760359C0094E333 /* CodeFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0DE291760359C0094E333 /* CodeFinder.m */; };
+		27F0DE311760359C0094E333 /* CodeFinder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE2A1760359C0094E333 /* CodeFinder.xib */; };
+		27F0DE321760359C0094E333 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0DE2C1760359C0094E333 /* DataModel.m */; };
+		27F0DE331760359C0094E333 /* ProduceFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0DE2E1760359C0094E333 /* ProduceFinderViewController.m */; };
+		27F0DE341760359C0094E333 /* ProduceFinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE2F1760359C0094E333 /* ProduceFinderViewController.xib */; };
+		27F0DE37176035C00094E333 /* ProduceTracker.db in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE36176035C00094E333 /* ProduceTracker.db */; };
+		27F0DE4E176035EE0094E333 /* darkbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE38176035EE0094E333 /* darkbutton.png */; };
+		27F0DE4F176035EE0094E333 /* darkbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE39176035EE0094E333 /* darkbutton@2x.png */; };
+		27F0DE50176035EE0094E333 /* dataviewbacker.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE3A176035EE0094E333 /* dataviewbacker.png */; };
+		27F0DE51176035EE0094E333 /* dataviewbacker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE3B176035EE0094E333 /* dataviewbacker@2x.png */; };
+		27F0DE52176035EE0094E333 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE3C176035EE0094E333 /* Default-568h@2x.png */; };
+		27F0DE53176035EE0094E333 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE3D176035EE0094E333 /* default.png */; };
+		27F0DE54176035EE0094E333 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE3E176035EE0094E333 /* default@2x.png */; };
+		27F0DE55176035EE0094E333 /* iOS Simulator Screen shot Jun 2, 2013 5.17.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE3F176035EE0094E333 /* iOS Simulator Screen shot Jun 2, 2013 5.17.12 PM.png */; };
+		27F0DE56176035EE0094E333 /* newshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE40176035EE0094E333 /* newshot.png */; };
+		27F0DE57176035EE0094E333 /* newshotone.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE41176035EE0094E333 /* newshotone.png */; };
+		27F0DE58176035EE0094E333 /* newshotthree.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE42176035EE0094E333 /* newshotthree.png */; };
+		27F0DE59176035EE0094E333 /* newshottwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE43176035EE0094E333 /* newshottwo.png */; };
+		27F0DE5A176035EE0094E333 /* PFBigLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE44176035EE0094E333 /* PFBigLogo.png */; };
+		27F0DE5B176035EE0094E333 /* pfdarkbuttonpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE45176035EE0094E333 /* pfdarkbuttonpressed.png */; };
+		27F0DE5C176035EE0094E333 /* pfdarkbuttonpressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE46176035EE0094E333 /* pfdarkbuttonpressed@2x.png */; };
+		27F0DE5D176035EE0094E333 /* PFLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE47176035EE0094E333 /* PFLogo.png */; };
+		27F0DE5E176035EE0094E333 /* PFLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE48176035EE0094E333 /* PFLogo@2x.png */; };
+		27F0DE5F176035EE0094E333 /* PFLogoPiece.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE49176035EE0094E333 /* PFLogoPiece.png */; };
+		27F0DE60176035EE0094E333 /* PFSmallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE4A176035EE0094E333 /* PFSmallLogo.png */; };
+		27F0DE61176035EE0094E333 /* PFSmallLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE4B176035EE0094E333 /* PFSmallLogo@2x.png */; };
+		27F0DE62176035EE0094E333 /* Separator2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE4C176035EE0094E333 /* Separator2.png */; };
+		27F0DE63176035EE0094E333 /* Separator2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE4D176035EE0094E333 /* Separator2@2x.png */; };
+		27F0DE65176036BE0094E333 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE64176036BE0094E333 /* Default@2x.png */; };
+		27F0DE67176036D70094E333 /* PFSmallLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE66176036D70094E333 /* PFSmallLogo@2x.png */; };
+		27F0DE69176038840094E333 /* PFSmallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F0DE68176038840094E333 /* PFSmallLogo.png */; };
+		27F0DE6B17613FB90094E333 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F0DE6A17613FB90094E333 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +90,41 @@
 		2703FD3E175E7D7600E3C8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2703FD40175E7D7600E3C8E9 /* ProduceFinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProduceFinderTests.h; sourceTree = "<group>"; };
 		2703FD41175E7D7600E3C8E9 /* ProduceFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProduceFinderTests.m; sourceTree = "<group>"; };
+		27F0DE281760359C0094E333 /* CodeFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeFinder.h; path = Classes/CodeFinder.h; sourceTree = "<group>"; };
+		27F0DE291760359C0094E333 /* CodeFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodeFinder.m; path = Classes/CodeFinder.m; sourceTree = "<group>"; };
+		27F0DE2A1760359C0094E333 /* CodeFinder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CodeFinder.xib; path = Classes/CodeFinder.xib; sourceTree = "<group>"; };
+		27F0DE2B1760359C0094E333 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataModel.h; path = Classes/DataModel.h; sourceTree = "<group>"; };
+		27F0DE2C1760359C0094E333 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataModel.m; path = Classes/DataModel.m; sourceTree = "<group>"; };
+		27F0DE2D1760359C0094E333 /* ProduceFinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProduceFinderViewController.h; path = Classes/ProduceFinderViewController.h; sourceTree = "<group>"; };
+		27F0DE2E1760359C0094E333 /* ProduceFinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProduceFinderViewController.m; path = Classes/ProduceFinderViewController.m; sourceTree = "<group>"; };
+		27F0DE2F1760359C0094E333 /* ProduceFinderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProduceFinderViewController.xib; path = Classes/ProduceFinderViewController.xib; sourceTree = "<group>"; };
+		27F0DE36176035C00094E333 /* ProduceTracker.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProduceTracker.db; sourceTree = "<group>"; };
+		27F0DE38176035EE0094E333 /* darkbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkbutton.png; path = Images/darkbutton.png; sourceTree = "<group>"; };
+		27F0DE39176035EE0094E333 /* darkbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "darkbutton@2x.png"; path = "Images/darkbutton@2x.png"; sourceTree = "<group>"; };
+		27F0DE3A176035EE0094E333 /* dataviewbacker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dataviewbacker.png; path = Images/dataviewbacker.png; sourceTree = "<group>"; };
+		27F0DE3B176035EE0094E333 /* dataviewbacker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dataviewbacker@2x.png"; path = "Images/dataviewbacker@2x.png"; sourceTree = "<group>"; };
+		27F0DE3C176035EE0094E333 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		27F0DE3D176035EE0094E333 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = Images/default.png; sourceTree = "<group>"; };
+		27F0DE3E176035EE0094E333 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default@2x.png"; path = "Images/default@2x.png"; sourceTree = "<group>"; };
+		27F0DE3F176035EE0094E333 /* iOS Simulator Screen shot Jun 2, 2013 5.17.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot Jun 2, 2013 5.17.12 PM.png"; path = "Images/iOS Simulator Screen shot Jun 2, 2013 5.17.12 PM.png"; sourceTree = "<group>"; };
+		27F0DE40176035EE0094E333 /* newshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newshot.png; path = Images/newshot.png; sourceTree = "<group>"; };
+		27F0DE41176035EE0094E333 /* newshotone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newshotone.png; path = Images/newshotone.png; sourceTree = "<group>"; };
+		27F0DE42176035EE0094E333 /* newshotthree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newshotthree.png; path = Images/newshotthree.png; sourceTree = "<group>"; };
+		27F0DE43176035EE0094E333 /* newshottwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newshottwo.png; path = Images/newshottwo.png; sourceTree = "<group>"; };
+		27F0DE44176035EE0094E333 /* PFBigLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PFBigLogo.png; path = Images/PFBigLogo.png; sourceTree = "<group>"; };
+		27F0DE45176035EE0094E333 /* pfdarkbuttonpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pfdarkbuttonpressed.png; path = Images/pfdarkbuttonpressed.png; sourceTree = "<group>"; };
+		27F0DE46176035EE0094E333 /* pfdarkbuttonpressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pfdarkbuttonpressed@2x.png"; path = "Images/pfdarkbuttonpressed@2x.png"; sourceTree = "<group>"; };
+		27F0DE47176035EE0094E333 /* PFLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PFLogo.png; path = Images/PFLogo.png; sourceTree = "<group>"; };
+		27F0DE48176035EE0094E333 /* PFLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PFLogo@2x.png"; path = "Images/PFLogo@2x.png"; sourceTree = "<group>"; };
+		27F0DE49176035EE0094E333 /* PFLogoPiece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PFLogoPiece.png; path = Images/PFLogoPiece.png; sourceTree = "<group>"; };
+		27F0DE4A176035EE0094E333 /* PFSmallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PFSmallLogo.png; path = Images/PFSmallLogo.png; sourceTree = "<group>"; };
+		27F0DE4B176035EE0094E333 /* PFSmallLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PFSmallLogo@2x.png"; path = "Images/PFSmallLogo@2x.png"; sourceTree = "<group>"; };
+		27F0DE4C176035EE0094E333 /* Separator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Separator2.png; path = Images/Separator2.png; sourceTree = "<group>"; };
+		27F0DE4D176035EE0094E333 /* Separator2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Separator2@2x.png"; path = "Images/Separator2@2x.png"; sourceTree = "<group>"; };
+		27F0DE64176036BE0094E333 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27F0DE66176036D70094E333 /* PFSmallLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PFSmallLogo@2x.png"; sourceTree = "<group>"; };
+		27F0DE68176038840094E333 /* PFSmallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PFSmallLogo.png; sourceTree = "<group>"; };
+		27F0DE6A17613FB90094E333 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F0DE6B17613FB90094E333 /* libsqlite3.0.dylib in Frameworks */,
 				2703FD11175E7D7600E3C8E9 /* UIKit.framework in Frameworks */,
 				2703FD13175E7D7600E3C8E9 /* Foundation.framework in Frameworks */,
 				2703FD15175E7D7600E3C8E9 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +157,9 @@
 		2703FD04175E7D7600E3C8E9 = {
 			isa = PBXGroup;
 			children = (
+				27F0DE68176038840094E333 /* PFSmallLogo.png */,
+				27F0DE66176036D70094E333 /* PFSmallLogo@2x.png */,
+				27F0DE64176036BE0094E333 /* Default@2x.png */,
 				2703FD18175E7D7600E3C8E9 /* ProduceFinder */,
 				2703FD3A175E7D7600E3C8E9 /* ProduceFinderTests */,
 				2703FD0F175E7D7600E3C8E9 /* Frameworks */,
@@ -108,6 +179,7 @@
 		2703FD0F175E7D7600E3C8E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27F0DE6A17613FB90094E333 /* libsqlite3.0.dylib */,
 				2703FD10175E7D7600E3C8E9 /* UIKit.framework */,
 				2703FD12175E7D7600E3C8E9 /* Foundation.framework */,
 				2703FD14175E7D7600E3C8E9 /* CoreGraphics.framework */,
@@ -120,8 +192,18 @@
 		2703FD18175E7D7600E3C8E9 /* ProduceFinder */ = {
 			isa = PBXGroup;
 			children = (
+				27F0DE35176035AE0094E333 /* Images */,
+				27F0DE281760359C0094E333 /* CodeFinder.h */,
+				27F0DE291760359C0094E333 /* CodeFinder.m */,
+				27F0DE2A1760359C0094E333 /* CodeFinder.xib */,
+				27F0DE2B1760359C0094E333 /* DataModel.h */,
+				27F0DE2C1760359C0094E333 /* DataModel.m */,
+				27F0DE2D1760359C0094E333 /* ProduceFinderViewController.h */,
+				27F0DE2E1760359C0094E333 /* ProduceFinderViewController.m */,
+				27F0DE2F1760359C0094E333 /* ProduceFinderViewController.xib */,
 				2703FD21175E7D7600E3C8E9 /* AppDelegate.h */,
 				2703FD22175E7D7600E3C8E9 /* AppDelegate.m */,
+				27F0DE36176035C00094E333 /* ProduceTracker.db */,
 				2703FD2A175E7D7600E3C8E9 /* ProduceFinder.xcdatamodeld */,
 				2703FD19175E7D7600E3C8E9 /* Supporting Files */,
 			);
@@ -132,6 +214,9 @@
 			isa = PBXGroup;
 			children = (
 				2703FD1A175E7D7600E3C8E9 /* ProduceFinder-Info.plist */,
+				27F0DE3C176035EE0094E333 /* Default-568h@2x.png */,
+				27F0DE3E176035EE0094E333 /* default@2x.png */,
+				27F0DE3D176035EE0094E333 /* default.png */,
 				2703FD1B175E7D7600E3C8E9 /* InfoPlist.strings */,
 				2703FD1E175E7D7600E3C8E9 /* main.m */,
 				2703FD20175E7D7600E3C8E9 /* ProduceFinder-Prefix.pch */,
@@ -159,6 +244,32 @@
 				2703FD3D175E7D7600E3C8E9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27F0DE35176035AE0094E333 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27F0DE38176035EE0094E333 /* darkbutton.png */,
+				27F0DE39176035EE0094E333 /* darkbutton@2x.png */,
+				27F0DE3A176035EE0094E333 /* dataviewbacker.png */,
+				27F0DE3B176035EE0094E333 /* dataviewbacker@2x.png */,
+				27F0DE3F176035EE0094E333 /* iOS Simulator Screen shot Jun 2, 2013 5.17.12 PM.png */,
+				27F0DE40176035EE0094E333 /* newshot.png */,
+				27F0DE41176035EE0094E333 /* newshotone.png */,
+				27F0DE42176035EE0094E333 /* newshotthree.png */,
+				27F0DE43176035EE0094E333 /* newshottwo.png */,
+				27F0DE44176035EE0094E333 /* PFBigLogo.png */,
+				27F0DE45176035EE0094E333 /* pfdarkbuttonpressed.png */,
+				27F0DE46176035EE0094E333 /* pfdarkbuttonpressed@2x.png */,
+				27F0DE47176035EE0094E333 /* PFLogo.png */,
+				27F0DE48176035EE0094E333 /* PFLogo@2x.png */,
+				27F0DE49176035EE0094E333 /* PFLogoPiece.png */,
+				27F0DE4A176035EE0094E333 /* PFSmallLogo.png */,
+				27F0DE4B176035EE0094E333 /* PFSmallLogo@2x.png */,
+				27F0DE4C176035EE0094E333 /* Separator2.png */,
+				27F0DE4D176035EE0094E333 /* Separator2@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +347,34 @@
 				2703FD25175E7D7600E3C8E9 /* Default.png in Resources */,
 				2703FD27175E7D7600E3C8E9 /* Default@2x.png in Resources */,
 				2703FD29175E7D7600E3C8E9 /* Default-568h@2x.png in Resources */,
+				27F0DE311760359C0094E333 /* CodeFinder.xib in Resources */,
+				27F0DE341760359C0094E333 /* ProduceFinderViewController.xib in Resources */,
+				27F0DE37176035C00094E333 /* ProduceTracker.db in Resources */,
+				27F0DE4E176035EE0094E333 /* darkbutton.png in Resources */,
+				27F0DE4F176035EE0094E333 /* darkbutton@2x.png in Resources */,
+				27F0DE50176035EE0094E333 /* dataviewbacker.png in Resources */,
+				27F0DE51176035EE0094E333 /* dataviewbacker@2x.png in Resources */,
+				27F0DE52176035EE0094E333 /* Default-568h@2x.png in Resources */,
+				27F0DE53176035EE0094E333 /* default.png in Resources */,
+				27F0DE54176035EE0094E333 /* default@2x.png in Resources */,
+				27F0DE55176035EE0094E333 /* iOS Simulator Screen shot Jun 2, 2013 5.17.12 PM.png in Resources */,
+				27F0DE56176035EE0094E333 /* newshot.png in Resources */,
+				27F0DE57176035EE0094E333 /* newshotone.png in Resources */,
+				27F0DE58176035EE0094E333 /* newshotthree.png in Resources */,
+				27F0DE59176035EE0094E333 /* newshottwo.png in Resources */,
+				27F0DE5A176035EE0094E333 /* PFBigLogo.png in Resources */,
+				27F0DE5B176035EE0094E333 /* pfdarkbuttonpressed.png in Resources */,
+				27F0DE5C176035EE0094E333 /* pfdarkbuttonpressed@2x.png in Resources */,
+				27F0DE5D176035EE0094E333 /* PFLogo.png in Resources */,
+				27F0DE5E176035EE0094E333 /* PFLogo@2x.png in Resources */,
+				27F0DE5F176035EE0094E333 /* PFLogoPiece.png in Resources */,
+				27F0DE60176035EE0094E333 /* PFSmallLogo.png in Resources */,
+				27F0DE61176035EE0094E333 /* PFSmallLogo@2x.png in Resources */,
+				27F0DE62176035EE0094E333 /* Separator2.png in Resources */,
+				27F0DE63176035EE0094E333 /* Separator2@2x.png in Resources */,
+				27F0DE65176036BE0094E333 /* Default@2x.png in Resources */,
+				27F0DE67176036D70094E333 /* PFSmallLogo@2x.png in Resources */,
+				27F0DE69176038840094E333 /* PFSmallLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +412,9 @@
 				2703FD1F175E7D7600E3C8E9 /* main.m in Sources */,
 				2703FD23175E7D7600E3C8E9 /* AppDelegate.m in Sources */,
 				2703FD2C175E7D7600E3C8E9 /* ProduceFinder.xcdatamodeld in Sources */,
+				27F0DE301760359C0094E333 /* CodeFinder.m in Sources */,
+				27F0DE321760359C0094E333 /* DataModel.m in Sources */,
+				27F0DE331760359C0094E333 /* ProduceFinderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +518,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProduceFinder/ProduceFinder-Prefix.pch";
 				INFOPLIST_FILE = "ProduceFinder/ProduceFinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,6 +530,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProduceFinder/ProduceFinder-Prefix.pch";
 				INFOPLIST_FILE = "ProduceFinder/ProduceFinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,6 +589,7 @@
 				2703FD47175E7D7600E3C8E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2703FD48175E7D7600E3C8E9 /* Build configuration list for PBXNativeTarget "ProduceFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +598,7 @@
 				2703FD4A175E7D7600E3C8E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

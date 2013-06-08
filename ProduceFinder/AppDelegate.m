@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DataModel.h"
+#import "ProduceFinderViewController.h"
 
 @implementation AppDelegate
 
@@ -14,11 +16,23 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+@synthesize window, viewController, navController, dataModel;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //Initialize DataModel
+    dataModel = [[DataModel alloc] init];
+    
+	// Push to home screen
+	viewController = [[ProduceFinderViewController alloc] initWithData:dataModel AppDelegate:self];
+    
+    [viewController viewWillAppear:YES];
+    
+	navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    [self.window setRootViewController:navController];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -48,6 +62,8 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
+    [dataModel closeDatabase];
+    NSLog(@"even Here");
     [self saveContext];
 }
 

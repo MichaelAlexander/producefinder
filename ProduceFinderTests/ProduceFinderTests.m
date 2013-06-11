@@ -7,26 +7,37 @@
 //
 
 #import "ProduceFinderTests.h"
+#import "DataModel.h"
 
 @implementation ProduceFinderTests
+
+@synthesize testDataModel;
 
 - (void)setUp
 {
     [super setUp];
     
-    // Set-up code here.
+    testDataModel = [[DataModel alloc] init];
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
+    [testDataModel closeDatabase];
     
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testThatDatabaseOpenedCorrectly
 {
-    STFail(@"Unit tests are not implemented yet in ProduceFinderTests");
+    STAssertTrue([testDataModel databaseDidOpen], @"database did not open correctly");
+}
+
+- (void)testThatDataModelReturnsCorrectValues
+{
+    NSString *controlString = @"Yellow Banana";
+    NSString *testString = [testDataModel getProduceNameWithPLU:4011];
+    STAssertEqualObjects(testString, controlString, @"string value is incorrect for plu code");
+    
 }
 
 @end

@@ -8,6 +8,10 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+@class DataModel;
+
 @interface ProduceFinderTests : SenTestCase
+
+@property (nonatomic, strong) DataModel *testDataModel;
 
 @end
